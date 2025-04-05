@@ -1,6 +1,11 @@
 body {
-    background-image: url('C:/Users/Iasmor/Documents/Programação/GitHub/Testing-Branch/LOGOTIPO3.png;'); /* Substitua 'background.jpg' pelo caminho da sua imagem */
+    background-image: url('LOGOTIPO3.png'); /* Substitua 'background.jpg' pelo caminho da sua imagem */
     background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita repetição da imagem */
+}
+
+h1,h2, p, ul, li {
+    color: rgb(212, 156, 0);
+    font-family: Arial, sans-serif;
 }
