@@ -1,11 +1,19 @@
 body {
-    background-image: url('LOGOTIPO3.png'); /* Substitua 'background.jpg' pelo caminho da sua imagem */
+    background-image: url('LOGOTIPO3.png'); /* Substitua 'LOGOTIPO3.png' pelo caminho da sua imagem */
     background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita repetição da imagem */
+    background-color: rgba(2, 16, 82, 0.788); /* Adiciona uma camada de transparência preta */
+    background-blend-mode: overlay; /* Combina a cor de fundo com a imagem */
 }
 
 h1,h2, p, ul, li {
     color: rgb(212, 156, 0);
     font-family: Arial, sans-serif;
 }
+
+body {
+    font-family: fantasy;
+    font-size: 30px;
+}
+
